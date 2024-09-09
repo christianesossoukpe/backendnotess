@@ -9,14 +9,21 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.Locale.Category;
 
 @RestController
 @RequestMapping("/api/notes")
+@CrossOrigin//relier le front au back
 public class NoteController {
 
     @Autowired
     private NoteService noteService;
+    private Category category;
 
+    @GetMapping
+    public List<Category> getAllCategories() {
+        return categoryService.getAllCategories();
+    }
     // Lire toutes les notes
     @GetMapping
     public ResponseEntity<List<Note>> getAllNotes() {

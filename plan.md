@@ -62,3 +62,11 @@
    - Construire l'application Angular et déployer sur un service d'hébergement (Netlify, Vercel, etc.).
 
 Ce plan devrait vous donner une vue d'ensemble claire pour démarrer votre projet. Si vous avez besoin de détails supplémentaires ou d'aide sur une partie spécifique, n'hésitez pas à demander ! 😊
+
+
+
+
+
+
+
+
